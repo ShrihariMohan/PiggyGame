@@ -15,7 +15,7 @@ function addFunction()
     roundScore = 0 ;
     document.getElementById('score-0').textContent = scores[0];
         document.getElementById('score-1').textContent = scores[1];
-        if ( scores[activePlayer] >= 20)
+        if ( scores[activePlayer] >= 100)
         {
             
             document.querySelector('#name-'+activePlayer).textContent = 'Winner!' ;
