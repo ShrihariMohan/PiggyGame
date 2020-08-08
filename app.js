@@ -83,7 +83,7 @@ document.querySelector('.btn-roll').addEventListener('click', function(){
         document.querySelector('#current-'+activePlayer).textContent = roundScore ;
 
     } else {
-
+        if ( dice === 1) roundScore = 0 ;
         addFunction();
     }    
 }
